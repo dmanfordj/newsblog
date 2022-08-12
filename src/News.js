@@ -7,7 +7,7 @@ export default function News() {
    
     return (
         <div className="news--css">
-         <h4>News-Components</h4>
+         <h4>News-Component</h4>
         </div>
     )
 
