@@ -12,7 +12,7 @@ export default function Newstest2() {
             
           <img src={presby} alt="Presby U" className='news-img-css'/>
           <div className="news-item-caption">
-           Presby University get New Rector
+           Presby University gets New Rector
          </div>
         </div>
     )

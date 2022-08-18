@@ -4,17 +4,17 @@ import "./style.css";
 
 
 // set up the new prop here
-export default function Sportsitem(prop) {
+export default function Entertainment(prop) {
 
    
     return (
-        <div className="sports--news--item-css">
+        <div className="news--item--css-half">
             
           <img src={prop.Image} alt="image2" className='news-img-css'/>
-        <div className="news-item-caption">
+
+          <div className="news-item-caption">
            {prop.Caption}
-        </div>
-        
+         </div>
         </div>
     )
 
