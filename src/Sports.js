@@ -16,8 +16,9 @@ export default function SportsNews() {
         <div className="sports--news--css">
          <Sportsitem
          Image={sports1}
-
+         DayofPost="Today"
          Caption="Ghana Makes History in FIFA World Cup"
+         Newstype="Sports"
               
          />   
 
@@ -25,14 +26,15 @@ export default function SportsNews() {
          Image={sports2}
 
          Caption="Basketball Legend Visits Ghana"
-              
+         DayofPost="Today"  
+         Newstype="Sports"  
          />  
 
         <Sportsitem
          Image={sports3}
-
          Caption="Athletics Ghana Gets Big Deal with Addidas"
-              
+         DayofPost="Today"  
+         Newstype="Sports"   
          />  
         
         </div>
