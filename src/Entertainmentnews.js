@@ -18,12 +18,16 @@ export default function EntertainmentNews() {
         <Entertainment
         Image={pic1}
         Caption="Sarkodie picks up Grammy"
+        DayofPost="Today"
+        Newstype="Entertainment"
         />
 
         <Entertainment
         
         Image={pic2}
         Caption="Opiesie`s Track goes global"
+        DayofPost="Yesterday"
+        Newstype="Entertainment"
         />
         
         

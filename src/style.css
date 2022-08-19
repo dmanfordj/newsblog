@@ -80,6 +80,7 @@ body{
 
 
 .news--item--css-half{
+    position:relative;
     width:49.5%;
     height:100%;
     background-color: red;
@@ -97,11 +98,22 @@ body{
     font-size:1.0rem;
     font-family:"Roboto";
     font-style: italic;
-
 }
 
 .navbar--css{
     width:90%;
    
+
+}
+
+.card--badge{
+    position:absolute;
+    background-color: black;
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    margin:10px;
+    font-size: 0.8rem;
 
 }
